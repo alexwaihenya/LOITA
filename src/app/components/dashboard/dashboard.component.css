@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    /* margin: auto 20px; */
+    gap: 2px;
+    top: 0;
+    
+  
+}
+.dashboard{
+    background-color: white;
+    height: 96vh;
+    display:flex;
+    flex-direction: column;
+    width: 20vw;
+    border-radius: 5px;
+   
+    
+}
+h2{
+    margin-top: 10px;
+    margin-left: 16px;
+    color: rgb(92, 92, 155);
+    margin-bottom: 24px;
+}
+.search input{
+    width:245px;
+    padding: 8px;
+    margin-right: 16px;
+    border-color: grey;
+    border-radius: 5px;
+    height: min-content;
+    margin-left: 16px;
+}
+.data{
+    border-radius: 5px;
+    margin-top: 10px;
+    outline: auto;
+    margin-right: 15px;
+    margin-left: 16px;
+    background-color: #fff;
+    height: 79vh;
+}
+h3{
+    margin-top: 42px;
+    margin-left: 16px;
+    color: rgb(92, 92, 155);
+    margin-bottom: 24px;
+}
+.graph{
+    margin-top: 72px;
+    border: 1px solid red;
+    width: 100vw;
+}
